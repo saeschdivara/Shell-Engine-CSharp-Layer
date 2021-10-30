@@ -9,7 +9,7 @@
         <AppDesignerFolder>Properties</AppDesignerFolder>
         <RootNamespace>Shell</RootNamespace>
         <AssemblyName>Shell-Engine</AssemblyName>
-        <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+        <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
         <FileAlignment>512</FileAlignment>
     </PropertyGroup>
     <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -40,6 +40,7 @@
     <ItemGroup>
         <Compile Include="Class1.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
+        <Compile Include="src\Core\Behaviours\ShellBehaviour.cs" />
     </ItemGroup>
     <ItemGroup>
       <Content Include=".gitignore" />
