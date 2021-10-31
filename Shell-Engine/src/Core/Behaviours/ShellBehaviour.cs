@@ -4,5 +4,6 @@ namespace Shell.Core.Behaviours
     {
         public virtual void OnCreate() {}
         public virtual void OnUpdate() {}
+        public virtual void OnDestroy() {}
     }
 }
